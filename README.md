@@ -17,11 +17,41 @@ Person { name = Kevin Walker; age = 42; gender = MALE }
 Person { name = Alice Buzzard; age = 70; gender = FEMALE }
 Person { name = Jonathan Lomas; age = 13; gender = MALE }
 Person { name = Catherine Forbes; age = 28; gender = FEMALE }
+1 0
+0 1
+1 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0 0 0
+0 0 0 0 0 0 1 0 0 0 0 0
+0 0 0 0 0 0 0 1 0 0 0 0
+0 0 0 0 0 0 0 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0 0 0 0 1
+1 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0
+0 0 0 0 1 0 0 0 0
+0 0 0 0 0 1 0 0 0
+0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0 1
+1 0 0 0 0 0 0
+0 1 0 0 0 0 0
+0 0 1 0 0 0 0
+0 0 0 1 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 1
 ```
 
 ## Possible Improvements
 
-Currently, `benchmark.asm` performs no benchmarking and only contains a sanity check that the allocator does not fail on such a simple example. Ideally, the sanity check would be replaced with proper benchmarking tests to carefully analyze the throughput and utilization of each allocator.
+Currently, `benchmark.asm` performs no benchmarking and only contains a sanity check that the allocator does not fail on a typical example. Ideally, the sanity check would be replaced with proper benchmarking tests to carefully analyze the throughput and utilization of each allocator.
 
 ## Credits
 
